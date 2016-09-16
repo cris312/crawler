@@ -6,6 +6,7 @@ import os
 import csv
 dat = {}
 class PC:
+#初始化
 	def __init__(self,baseUrl):
 		self.baseURL = baseUrl
 		self.tool = Tool()
